@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+}
+
+img {
+    width: 50%;
+}
+
+#modular_box {
+    background: linear-gradient(to bottom right, rgb(220, 172, 235)0%, rgb(176, 215, 240)100%)
+}
+
+#envelope {
+    background: linear-gradient(to top right, rgb(241, 167, 229)0%, rgb(241, 218, 168)100%)
+}
+
+#tulip {
+    background: linear-gradient(rgb(143, 236, 143)0%, rgb(145, 236, 214)100%)
+}
+
+#crane {
+    background: linear-gradient(to bottom left, rgb(247, 137, 192)0%, rgb(209, 166, 230)100%)
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links {
+    float: left;
+    color: rgb(239, 212, 255);
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: rgb(239, 212, 255);
+}
+
+html{
+    scroll-behavior: smooth;
+}
